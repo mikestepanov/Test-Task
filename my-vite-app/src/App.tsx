@@ -1,6 +1,7 @@
 import './App.css';
 
 function App() {
+  console.log('1');
     const marginIssue = import.meta.env.VITE_MARGIN_ISSUE === 'true';
     console.log('VITE_MARGIN_ISSUE:', marginIssue);
     if (marginIssue) {
